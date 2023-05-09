@@ -3,45 +3,18 @@
 <head>
     <title>地方創生webサイト</title>
     <link rel="stylesheet" href="main.css">
-    <style>
-        #map {
-            width: 100%;
-        }
-
-        path {
-            transition: fill 0.3s;
-        }
-
-        path:hover {
-            fill: #ffce00;
-        }
-    </style>
 </head>
 
 <body>
-    <header>my first edition</header>
+    <header>
+        <div id="title_label">
+            <a>my first edition</a>
+        </div>
+    </header>
     <main>
         <div id="map">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
                 <defs>
-                    <style>
-                        .cls-1 {
-                            fill: #fff;
-                        }
-
-                        .cls-1,
-                        .cls-2 {
-                            fill-rule: evenodd;
-                            stroke: #040000;
-                            stroke-linecap: round;
-                            stroke-linejoin: round;
-                            stroke-width: .48px;
-                        }
-
-                        .cls-2 {
-                            fill: none;
-                        }
-                    </style>
                 </defs>
                 <a xlink:href="http://www.pref.hokkaido.lg.jp/" target="_blank">
                     <g id="hokkaido">
@@ -225,7 +198,7 @@
                 </a>
                 <a xlink:href="http://www.pref.shiga.lg.jp/" target="_blank">
                     <g id="shiga">
-                        <path class="cls-1"
+                        <path class="cls-1 biwako"
                             d="m309.38,426.52s3.15-2.04,2.89-2.89c-.26-.85,0-.96,0-.96,0,0-.29-1.4,0-1.92.29-.52,1.73-.49,1.93-.96.19-.47.96-.96.96-.96,0,0,1.5-.21,1.93.96.42,1.18.4,1.76.96,1.93.56.16,1.37,1.12.96,1.93-.4.81.12,1.58-.96,1.92-1.09.35-2.49,1.49-2.89,1.92-.39.43-1.62,1.22-1.93,1.93-.31.7-1.93,1.92-1.93,1.92h-1.93v1.93l-.96,2.89-.96-.96-.2-3.06,1.17-3.68.96-1.92Z" />
                     </g>
                 </a>

@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../----web"
+		},
+		{
+			"name": "----web-1",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "----web-1"
+	}
+}
