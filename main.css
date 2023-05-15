@@ -5,27 +5,77 @@ body {
     margin-right: 0;
 }
 
+/*hearder*/
 header {
     width: 100%;
     margin-left: 0;
     margin-right: 0;
-}
-
-header #title_label {
-    color: #040000;
-}
-
-header #title_label a{
-    margin-top: 0;
-    display: flex;
-    height: 60px;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    font-size: 30px;
     background-color: #040000;
+}
+header div{
+    display: flex;
+}
+
+header #title_label{
+    text-align: center;
+    background-color: #040000;
+    height: 60px;
+}
+
+header #title_label .title{
+    width: 20%;
+    left: 10px;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 20px;
     color: #af782f;
 }
+
+
+
+.header_menu_label{
+    position: relative;
+    width: 70%;
+    margin: auto;
+}
+
+.header_menu{
+    color: aliceblue;
+    margin-left: 20px;
+}
+
+
+#humberger {
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+    top: 20px;
+    height: 20px;
+    width: 28px;
+    display: inline-block;
+    box-sizing: border-box;
+  }
+  #humberger span {
+    position: absolute;
+    left: 0;
+    height: 2px;
+    width: 28px;
+    background-color: #e3e626;
+    border-radius: 2px;
+    display: inline-block;
+    box-sizing: border-box;
+  }
+  #humberger span:nth-of-type(1) {
+    bottom: 20px;
+  }
+  #humberger span:nth-of-type(2) {
+    bottom: 10px;
+  }
+  #humberger span:nth-of-type(3) {
+    bottom: 0;
+  }
+
+/*body*/
 
 svg {
     display: block;
@@ -65,3 +115,4 @@ path:hover {
 .biwako {
     fill: aqua;
 }
+
