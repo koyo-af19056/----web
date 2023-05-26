@@ -2,7 +2,8 @@
 
 <head>
     <title>地方創生webサイト</title>
-    <link rel="stylesheet" href="main.css">
+	<link rel='stylesheet' href='<?php echo get_template_directory_uri(); ?>/mystyle.css' type='text/css'>
+	
 </head>
 
 <body>
@@ -359,7 +360,7 @@
             </svg>
         </div>
         <dav>
-
+            
         </dav>
     </main>
 </body>
