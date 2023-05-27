@@ -13,13 +13,13 @@
             </div>
             <div class="header_menu_label">
                 <div class="header_menu">
-                    <a href='<?php echo home_url('/municipality'); ?>'>自治体情報</a>
+                    <a href='<?php echo home_url('/page'); ?>'>子育て</a>
                 </div>
                 <div class="header_menu">
                     <a>イベント情報</a>
                 </div>
                 <div class="header_menu">
-                    <a>日本地図クイズ</a>
+                    <a>観光</a>
                 </div>
 
                 <div class="header_menu">
